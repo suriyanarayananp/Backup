@@ -1,0 +1,36 @@
+# Anorak Worker PRODUCTION
+
+[logs]
+server		= logs.papertrailapp.com
+server1		= 10.40.1.124
+server2		= logs2.papertrailapp.com
+port		= 46727
+port1		= 514
+port2		= 54988
+
+[rabbitmq]
+server		= frawspcmq01.cloud.trendinglines.co.uk
+port		= 5672
+user		= guest
+pass		= guest
+exchange	= anorak.workers
+queue		= anorak.workers
+prefetch	= 2
+
+[redis]
+server		= frawspcts01.cloud.trendinglines.co.uk
+port		= 6379
+enabled		= no
+
+[mysql]
+host		= collection-db-prod-merit.cloud.trendinglines.co.uk
+port		= 3306
+name		= meritproddata
+user		= merit
+pass		= dfFDG567HGf45
+
+[worker]
+# timeout in seconds for each item collection
+timeout		= 180
+# when the process grows this big it will die
+mem_limit	= 70

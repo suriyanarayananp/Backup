@@ -1,0 +1,32 @@
+# Anorak Worker STAGING
+
+[logs]
+server		= logs.papertrailapp.com
+port		= 46727
+
+[rabbitmq]
+server		= frawsscmq01.cloud.trendinglines.co.uk
+port		= 5672
+user		= guest
+pass		= guest
+exchange	= anorak.staging.workers
+queue		= anorak.staging.workers
+prefetch	= 2
+
+[redis]
+server		= frawsscts01.cloud.trendinglines.co.uk
+port		= 6379
+enabled		= no
+
+[mysql]
+host		= frawssrds.cloud.trendinglines.co.uk
+port		= 3306
+name		= meritproddata
+user		= merit
+pass		= fFDG567HGf45
+
+[worker]
+# timeout in seconds for each item collection
+timeout		= 180
+# when the process grows this big it will die
+mem_limit	= 70

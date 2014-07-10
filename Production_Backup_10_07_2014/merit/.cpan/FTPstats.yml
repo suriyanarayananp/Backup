@@ -1,0 +1,68 @@
+---
+history:
+  - attempts:
+      - method: dleasy
+        start: 1402576412.03693
+        url: &1 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576413.33779
+    file: authors/01mailrc.txt.gz
+    filesize: 222212
+    start: 1402576407.03543
+    thesiteurl: *1
+  - attempts:
+      - method: dleasy
+        start: 1402576414.63492
+        url: &2 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576415.35814
+    file: modules/02packages.details.txt.gz
+    filesize: 1541455
+    start: 1402576414.63465
+    thesiteurl: *2
+  - attempts:
+      - method: dleasy
+        start: 1402576436.71269
+        url: &3 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576437.05103
+    file: modules/03modlist.data.gz
+    filesize: 248
+    start: 1402576436.71252
+    thesiteurl: *3
+  - attempts:
+      - method: dleasy
+        start: 1402576609.39532
+        url: &4 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576609.99441
+    file: authors/01mailrc.txt.gz
+    filesize: 222212
+    start: 1402576604.39414
+    thesiteurl: *4
+  - attempts:
+      - method: dleasy
+        start: 1402576611.36791
+        url: &5 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576612.09808
+    file: modules/02packages.details.txt.gz
+    filesize: 1541455
+    start: 1402576611.36777
+    thesiteurl: *5
+  - attempts:
+      - method: dleasy
+        start: 1402576625.1142
+        url: &6 !!perl/hash:CPAN::URL
+          FROM: DEF
+          TEXT: http://www.perl.org/CPAN/
+    end: 1402576625.48067
+    file: modules/03modlist.data.gz
+    filesize: 248
+    start: 1402576625.11406
+    thesiteurl: *6
